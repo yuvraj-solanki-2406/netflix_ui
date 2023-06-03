@@ -15,7 +15,7 @@ export default function Netflix() {
 
     useEffect(() => {
         dispatch(getGenres())
-    }, [])
+    }, []) 
 
     window.onscroll = () => {
         setisScrolled(window.pageYOffset === 0 ? false : true);
